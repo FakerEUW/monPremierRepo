@@ -19,18 +19,13 @@ li {
     padding: 50px;
 }
 
-.bio {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 48px;
-    margin: auto;
-}
-
 .sec {
     flex: wrap;
 }
 
 img {
     width: 50%;
+    height: 50%;
     padding: auto;
 }
 
