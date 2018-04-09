@@ -10,13 +10,14 @@
     border-radius: 25px;  
     margin: auto;
     font-family: 'Times New Roman', Times, serif;
+    padding: 10%;
 }
 
 
 li {
     font-size: 24px;
     display: inline;
-    padding: 50px;
+    padding: 10%;
 }
 
 .sec {
@@ -25,8 +26,7 @@ li {
 
 img {
     width: 300px;
-    padding: auto;
-}
+    padding: 10%;
 
 p {
     font-family: 'Times New Roman', Times, serif;
@@ -34,13 +34,14 @@ p {
     font-size: 25px;
     font-style: italic;
     margin: auto;
+    padding: 10%;
 }
 
 h1, h2, h3 {
     margin: auto;
     font-size: 24px;
     width: auto;
-    padding: auto;
+    padding: 10%;
 }
 
 .Menu a {
