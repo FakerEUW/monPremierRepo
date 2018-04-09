@@ -1,0 +1,105 @@
+.html {
+    margin: auto;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Menu {
+    position: fixed;
+    background-image: url(gamaxy1.jpg);
+    border-radius: 25px;  
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+li {
+    font-size: 24px;
+    display: inline;
+    padding: 50px;
+}
+
+.bio {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 48px;
+    margin: auto;
+}
+
+.sec {
+    flex: wrap;
+}
+
+#divin {
+    font-size: 16px;
+    margin-top: 250px;
+    font-family: "diablo";
+}
+
+#img1 {
+  width: 80%;
+  padding: 10%;
+}
+
+#para {
+    margin: auto;
+    font-size: 24px;
+    margin-left: 14px;
+    margin-right: 100px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#img2 {
+   width: 80%;
+   padding: 10%;
+}    
+
+#img3 {
+    width: 80%;
+    padding: 10%
+}
+
+p {
+    font-family: cursive;
+    font-size: 45px;
+    font-style: italic;
+    margin: auto;
+}
+
+h2 {
+    margin-top: 150px;
+    margin-right: 160px;
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 24px;
+    margin-top: 150px;
+    margin-right: 107px;
+}
+
+.Menu a {
+    text-decoration: none;
+    font-size: 40px;
+    color: rgba(38, 179, 125, 0.788);
+}
+
+.a1:hover {
+    background-color: lightgray;
+}
+
+.a2:hover {
+    background-color: lightgray;
+}
+
+.a3:hover {
+    background-color: lightgray;
+}
+
+.a4:hover {
+    background-color: lightgray;
+}
+
+.a5:hover {
+    background-color: lightgray;
+}
+

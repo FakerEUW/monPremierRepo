@@ -1,0 +1,265 @@
+.html {
+    background-color: rgb(224, 181, 71);
+}
+
+.h1 {
+    font-family: "diablo";
+    font-size: 80px;
+    margin-left: 310px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+@font-face {
+    font-family: "diablo";
+    src: url("diablo.ttf") format("truetype");
+}
+
+.footer {
+    height: 120px;
+    position: bottom;
+    background-image: url(gamaxy1.jpg);
+    border-radius: 25px;
+    font-family: "diablo";
+}
+
+li {
+    display: inline;
+}
+
+.plat1 {
+    height: 340px;
+    margin-left: 25px;
+    border-radius: 25px;
+}
+
+.menuisier {
+    font-family: "diablo";
+    font-size: 60px;
+    margin-left: 500px;
+    margin-bottom: 100px;
+}
+
+.h2 {
+    font-family: "diablo";
+    font-size: 30px;
+    float: left;
+    margin-top: 170px;
+    margin-right: 200px;
+    margin-left: 25px;
+}
+
+.plat2 {
+    height: 340px;
+    margin-left: 25px;
+    border-radius: 25px;
+}
+
+.plat3 {
+    height: 350px;
+    width: 350px;
+    margin-left: 25px;
+    margin-bottom: 100px;
+    border-radius: 25px;
+}
+
+.h3 {
+    font-family: "diablo";
+    font-size: 30px;
+    margin-top: 150px;
+    margin-right: 138px;
+    margin-left: 25px;
+    float: left;
+}
+
+.h4 {
+    font-family: "diablo";
+    font-size: 30px;
+    margin-top: 150px;
+    margin-right: 192px;
+    margin-bottom: 150px;
+    float: left;
+    margin-left: 25px;
+}
+
+.footer a {
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.a1:hover {
+    background-color: none  ;
+}
+
+/* deuxieme menu */
+
+.plat4 {
+    height: 340px;
+    margin-left: 25px;
+    border-radius: 25px;
+}
+
+.menufretin {
+    font-family: "diablo";
+    font-size: 60px;
+    margin-left: 500px;
+    margin-bottom: 100px;
+}
+
+.h21 {
+    font-family: "diablo";
+    font-size: 30px;
+    float: left;
+    margin-top: 170px;
+    margin-right: 200px;
+    margin-left: 25px;
+}
+
+.plat5 {
+    height: 340px;
+    margin-left: 25px;
+    border-radius: 25px;
+}
+
+
+.h31 {
+    font-family: "diablo";
+    font-size: 30px;
+    margin-top: 150px;
+    margin-right: 138px;
+    float: left;
+    margin-left: 25px;
+}
+
+/* troisième menu */
+
+
+.plat6 {
+    height: 340px;
+    margin-left: 80px;
+    border-radius: 25px;
+}
+
+.menunrj {
+    font-family: "diablo";
+    font-size: 60px;
+    margin-left: 500px;
+    margin-bottom: 100px;
+}
+
+.h22 {
+    font-family: "diablo";
+    font-size: 30px;
+    float: left;
+    margin-top: 170px;
+    margin-right: 200px;
+    margin-left: 25px;
+}
+
+.plat7 {
+    height: 340px;
+    margin-left: 145px;
+    border-radius: 25px;
+}
+
+
+.h32 {
+    font-family: "diablo";
+    font-size: 30px;
+    margin-top: 150px;
+    margin-right: 138px;
+    margin-left: 25px;
+    float: left;
+}
+
+/* quatrième menu */
+
+.plat8 {
+    height: 340px;
+    margin-left: 80px;
+    border-radius: 25px;
+}
+
+.metounu {
+    font-family: "diablo";
+    font-size: 60px;
+    margin-left: 500px;
+    margin-bottom: 100px;
+}
+
+.h23 {
+    font-family: "diablo";
+    font-size: 30px;
+    float: left;
+    margin-top: 170px;
+    margin-right: 200px;
+    margin-left: 25px;
+}
+
+.plat9 {
+    height: 340px;
+    margin-left: 230px;
+    border-radius: 25px;
+}
+
+.platcafe {
+    height: 340px;
+    border-radius: 25px;
+    margin-left: 180px; 
+}
+
+
+.h33 {
+    font-family: "diablo";
+    font-size: 30px;
+    margin-top: 150px;
+    margin-right: 138px;
+    margin-left: 25px;
+    float: left;
+}
+
+/* cinquième menu */
+
+.plat11 {
+    height: 340px;
+    margin-left: 80px;
+    border-radius: 25px;
+}
+
+.menute {
+    font-family: "diablo";
+    font-size: 60px;
+    margin-left: 500px;
+    margin-bottom: 100px;
+}
+
+.h24 {
+    font-family: "diablo";
+    font-size: 30px;
+    float: left;
+    margin-top: 140px;
+    margin-right: 200px;
+    margin-left: 25px;
+}
+
+.plat13 {
+    width: 300px;
+    margin-left: 230px;
+    border-radius: 25px;
+}
+
+.platcafe {
+    height: 340px;
+    border-radius: 25px;
+    margin-left: 180px; 
+}
+
+
+.h34 {
+    font-family: "diablo";
+    font-size: 30px;
+    margin-top: 150px;
+    margin-right: 220px;
+    margin-left: 25px;
+    float: left;
+}
