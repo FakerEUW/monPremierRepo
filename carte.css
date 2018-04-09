@@ -1,0 +1,44 @@
+.html {
+    background-color: rgb(224, 181, 71);
+}
+
+h1, h2, h3, h4 {
+    font-family: serif;
+    font-size: 80px;
+    margin-left: 310px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+img {
+    font-size: 50%;
+    margin: auto;
+}
+
+@font-face {
+    font-family: "diablo";
+    src: url("diablo.ttf") format("truetype");
+}
+
+.footer {
+    height: 120px;
+    position: bottom;
+    background-image: url(gamaxy1.jpg);
+    border-radius: 25px;
+    font-family: serif;
+}
+
+li {
+    display: inline;
+}
+
+
+
+.footer a {
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.a1:hover {
+    background-color: none  ;
+}
