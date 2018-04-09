@@ -10,14 +10,14 @@
     border-radius: 25px;  
     margin: auto;
     font-family: 'Times New Roman', Times, serif;
-    padding: 10%;
+    padding: 2%;
 }
 
 
 li {
     font-size: 24px;
     display: inline;
-    padding: 10%;
+    padding: 2%;
 }
 
 .sec {
@@ -26,12 +26,12 @@ li {
 
 img {
     width: 300px;
-    padding: 10%;
+    padding: 2%;
 }
 
 p {
-    padding: 15%;
-    font-size: 35px;
+    padding: 2%;
+    font-size: 20px;
     width: 75%;
 
 }
@@ -40,7 +40,7 @@ h1, h2, h3 {
     margin: auto;
     font-size: 24px;
     width: auto;
-    padding: 10%;
+    padding: 2%;
 }
 
 .Menu a {
