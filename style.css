@@ -30,8 +30,8 @@ img {
 
 p {
     font-family: 'Times New Roman', Times, serif;
-    width: 50%;
-    font-size: 45px;
+    width: auto;
+    font-size: 25px;
     font-style: italic;
     margin: auto;
 }
@@ -39,7 +39,7 @@ p {
 h1, h2, h3 {
     margin: auto;
     font-size: 24px;
-    width: 50%;
+    width: auto;
     padding: auto;
 }
 
