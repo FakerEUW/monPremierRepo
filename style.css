@@ -5,7 +5,7 @@
 }
 
 .Menu {
-    position: fixed;
+    position: top;
     background-image: url(gamaxy1.jpg);
     border-radius: 25px;  
     margin: auto;
