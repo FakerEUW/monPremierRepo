@@ -2,99 +2,90 @@
 
 <html class="html">
     <head>
+            <meta charset="utf-8" />
         <title>Me Contacter</title>
         <link rel="stylesheet" type="text/css"  href="./contact.css"/>
         <link rel="stylesheet" media="screen and (max-width:1280px)" href="./media.css"/>
-        <link rel="stylesheet" type="text/javascript" href="./anime.js"/>
         <h1 class="h1">Contacter le Chef</h1>
     </head>
 
 <body>
-        <div class="container">
-                <!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="utf-8" />
-    <title>TP : Un formulaire interactif</title>
-</head>
-
-<body>
     <div class="container">
+            <form id="myForm" method="POST">
 
-    <form id="myForm">
+                    <label class="form_col" for="lastName">Nom :</label>
+                    <input name="lastName" id="lastName" type="text" />
+                    <span class="tooltip">Pas moins de 2 caractères</span>
+                    <br /><br />
+            
+                    <label class="form_col" for="firstName">Prénom :</label>
+                    <input name="firstName" id="firstName" type="text" />
+                    <span class="tooltip">Pas moins de 2 caractères</span>
+                    <br /><br />
+            
+                    <label class="form_col" for="num">Numéro mobile :</label>
+                    <input name="num" id="num" type="text" />
+                    <span class="tooltip">Pas moins de 10 chiffres</span>
+                    <br /><br />
+            
+                    <label class="form_col" for="fixe">Numéro fixe :</label>
+                    <input name="fixe" id="fixe" type="text" />
+                    <span class="tooltip">Pas moins de 10 chiffres</span>
+                    <br /><br />
 
-        <label class="form_col" for="lastName">Nom :</label>
-        <input name="lastName" id="lastName" type="text" />
-        <span class="tooltip">Pas moins de 2 caractères</span>
-        <br /><br />
-
-        <label class="form_col" for="firstName">Prénom :</label>
-        <input name="firstName" id="firstName" type="text" />
-        <span class="tooltip">Pas moins de 2 caractères</span>
-        <br /><br />
-
-        <label class="form_col" for="num">Numéro mobile :</label>
-        <input name="num" id="num" type="text" />
-        <span class="tooltip">Pas moins de 10 chiffres</span>
-        <br /><br />
-
-        <label class="form_col" for="num">Numéro fixe :</label>
-        <input name="num" id="num" type="text" />
-        <span class="tooltip">Pas moins de 10 chiffres</span>
-        <br /><br />
-
-        <label class="form_col" for="num">E-mail :</label>
-        <input name="num" id="num" type="text" />
-        <span class="tooltip">Pas moins de 10 caractères</span>
-        <br /><br />
-
-        <label class="form_col" for="num">Adresse :</label>
-        <input name="num" id="num" type="text" />
-        <span class="tooltip">Pas moins de 10 caractères</span>
-        <br /><br />
-
-        <label class="form_col" for="postal">Code Postal :</label>
-        <input name="postal" id="postal" type="text" />
-        <span class="tooltip">Pas moins de 5 chiffres</span>
-        <br /><br />
-
-        <label class="form_col" for="firstName">Ville :</label>
-        <input name="firstName" id="firstName" type="text" />
-        <span class="tooltip">Pas moins de 2 caractères</span>
-        <br /><br />
-
-
-        <label class="form_col" for="country">Pays :</label>
-        <span class="tooltip">Vous devez sélectionner votre pays de résidence</span>
-
-        <select name="country" id="country">
-        	<option value="none">Sélectionnez votre pays de résidence</option>
-            <option value="en">Angleterre</option>
-            <option value="al">Allemagne</option>
-            <option value="be">Belgique</option>
-            <option value="es">Espagne</option> 
-        	<option value="us">États-Unis</option>
-            <option value="fr">France</option>
-    	</select>
-        <span class="tooltip">Vous devez sélectionner votre pays de résidence</span>
-
-        <br /><br />
-
-        <span class="form_col"></span>
-        <input type="submit" value="Envoyer" /> <input type="reset" value="Réinitialiser le formulaire" />
-
-    </form>
+                    <label class="form_col" for="email">E-mail :</label>
+                    <input name="email" id="email" type="email" required />
+                    <span class="tooltip">Un @ est obligatoire</span>
+                    <br /><br />
+            
+                    <label class="form_col" for="adress">Adresse :</label>
+                    <input name="adress" id="adress" type="text" />
+                    <span class="tooltip">Pas moins de 10 caractères</span>
+                    <br /><br />
+            
+                    <label class="form_col" for="postal">Code Postal :</label>
+                    <input name="postal" id="postal" type="text" />
+                    <span class="tooltip">Pas moins de 5 chiffres</span>
+                    <br /><br />
+            
+                    <label class="form_col" for="city">Ville :</label>
+                    <input name="city" id="city" type="text" />
+                    <span class="tooltip">Pas moins de 2 caractères</span>
+                    <br /><br />
+            
+            
+                    <select name="country" id="country">
+                        <option value="none">Sélectionnez votre pays de résidence</option>
+                        <option value="en">Angleterre</option>
+                        <option value="al">Allemagne</option>
+                        <option value="be">Belgique</option>
+                        <option value="es">Espagne</option> 
+                        <option value="us">États-Unis</option>
+                        <option value="fr">France</option>
+                    </select>
+                    <span class="tooltip">Vous devez sélectionner votre pays de résidence</span>
+                    <br /><br />
+                    
+            
+                    <label for="msg">Votre avis :</label>
+                    <textarea rows="20" cols="85" id="msg"></textarea>
+                    <br /><br />
+            
+                    <span class="form_col"></span>
+                    <input type="submit" value="Envoyer" /> <input type="reset" value="Réinitialiser le formulaire" />
+            
+                </form>
+    
     </div>
 
-
-</html>
               
     <div>
         <h2 class="h2">Numéro de Téléphone : 05 59 05 55 74.</h2>
         <h3 class="h3">Adresse : 16 rue Paul-Jean Toulet</br>64360 Jurançon.</h3>
         <img class="img1" src="resto.jpg" alt="Photo de restaurant."/>
     </div>
+
+    <script type="text/javascript" src="anime.js"></script>
 
 </body>
 
