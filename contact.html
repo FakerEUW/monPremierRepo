@@ -11,8 +11,7 @@
 
 <body>
     <div class="container">
-            <form id="myForm" method="POST">
-
+            <form action="formulaire.php" id="myForm" method="POST">
                     <label class="form_col" for="lastName">Nom :</label>
                     <input name="lastName" id="lastName" type="text" />
                     <span class="tooltip">Pas moins de 2 caractères</span>
@@ -34,8 +33,8 @@
                     <br /><br />
 
                     <label class="form_col" for="email">E-mail :</label>
-                    <input name="email" id="email" type="email" required />
-                    <span class="tooltip">Un @ est obligatoire</span>
+                    <input name="email" id="email" type="text" />
+                    <span class="tooltip">Un @ est obligatoire, ainsi que ".fr" / ".com"</span>
                     <br /><br />
             
                     <label class="form_col" for="adress">Adresse :</label>
@@ -52,23 +51,9 @@
                     <input name="city" id="city" type="text" />
                     <span class="tooltip">Pas moins de 2 caractères</span>
                     <br /><br />
-            
-            
-                    <select name="country" id="country">
-                        <option value="none">Sélectionnez votre pays de résidence</option>
-                        <option value="en">Angleterre</option>
-                        <option value="al">Allemagne</option>
-                        <option value="be">Belgique</option>
-                        <option value="es">Espagne</option> 
-                        <option value="us">États-Unis</option>
-                        <option value="fr">France</option>
-                    </select>
-                    <span class="tooltip">Vous devez sélectionner votre pays de résidence</span>
-                    <br /><br />
-                    
-            
+
                     <label for="msg">Votre avis :</label>
-                    <textarea rows="20" cols="85" id="msg"></textarea>
+                    <textarea rows="20" cols="85" id="msg" name="msg"></textarea>
                     <br /><br />
             
                     <span class="form_col"></span>

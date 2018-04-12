@@ -26,6 +26,7 @@ function getTooltip(elements) {
 }
 
 
+
 // Fonctions de vérification du formulaire, elles renvoient "true" si tout est ok
 
 var check = {}; // On met toutes nos fonctions dans un objet littéral
@@ -106,26 +107,20 @@ check['fixe'] = function(id) {
 };
 //   //
 
-check['email'] = function validateEmail(email) {
+check['email'] = function(id) {
     var email = document.getElementById(id);
     var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-    return re.test(email);
-  }
+    tooltipStyle = getTooltip(email).style;
+   // return re.test(email); //
   
-  function validate() {
-    var $result = $("#result");
-    var email = $("#email").val();
-    $result
   
-    if (validateEmail(email)) {
-      $email.className = 'correct';
-      tooltipStyle = getTooltip(email).style;
-      $result.tooltipStyle.display = 'none';
-      return true;
+    if (re.test(email.value)) {
+        email.className = 'correct';
+        tooltipStyle.display = 'none';
     } 
     else {
-        test.email.className = 'incorrect';
-        test.tooltipStyle.display = 'inline-block';
+        email.className = 'incorrect';
+        tooltipStyle.display = 'inline-block';
         return false;
     }
     
@@ -192,23 +187,6 @@ check['city'] = function(id) {
 
 };
 
-check['country'] = function() {
-
-    var country = document.getElementById('country'),
-        tooltipStyle = getTooltip(country).style;
-
-    if (country.options[country.selectedIndex].value != 'none') {
-        tooltipStyle.display = 'none';
-        return true;
-    } else {
-        tooltipStyle.display = 'inline-block';
-        return false;
-    }
-};
-
-
-
-
 // Mise en place des événements
 
 (function() { // Utilisation d'une IIFE pour éviter les variables globales.
@@ -222,22 +200,6 @@ check['country'] = function() {
             check[e.target.id](e.target.id); // "e.target" représente l'input actuellement modifié
         });
     }
-
-    myForm.addEventListener('submit', function(e) {
-
-        var result = true;
-
-        for (var i in check) {
-            result = check[i](i) && result;
-        }
-
-        if (result) {
-            alert('Le formulaire est bien rempli.');
-        }
-
-        e.preventDefault();
-
-    });
 
     myForm.addEventListener('reset', function() {
 
